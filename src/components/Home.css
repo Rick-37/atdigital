@@ -32,6 +32,15 @@ figcaption button {
   margin-left: 2rem;
 }
 
+figcaption button:hover {
+  border-color: #f28d35;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  border: none;
+  color: #f28d35;
+}
+
 .text-col {
   display: flex;
   text-align: left;
@@ -65,7 +74,7 @@ button {
   color: white;
 }
 
-text-col button:hover {
+.text-col button:hover {
   border-color: #f28d35;
   background-color: white;
   border-radius: 5px;
